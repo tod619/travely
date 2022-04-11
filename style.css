@@ -1,5 +1,7 @@
 /* Start: Global Styles */
 
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Poppins:wght@400;500&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -8,6 +10,11 @@
 
 html {
     font-size: 62.5%;
+}
+
+body {
+    font-family: 'Poppins',
+    sans-serif;
 }
 
 h1 {
@@ -20,6 +27,7 @@ h2 {
 
 h3 {
     font-size: 3rem;
+    font-weight: normal;
 }
 
 h4,
@@ -39,6 +47,16 @@ a {
     text-decoration: none;
 }
 
+button {
+    padding: 2rem 6rem;
+    background: #4c6e97;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.8rem;
+    color: #fff;
+    cursor: pointer;
+}
+
 /* End: Global Styles */
 
 /* Start: Navigation Bar */
@@ -51,6 +69,7 @@ nav {
     min-height: 10vh;
     padding: 2rem;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;   
     width: 90%;
     margin: auto;
@@ -66,5 +85,47 @@ nav ul {
 
 #logo {
     flex: 2 1 40rem;
+    font-family: 'Pattaya',
+    sans-serif;
+    letter-spacing: 0.2rem;
+    font-weight: normal;
 }
 /* End: Navigation Bar */
+
+/* Start: Hero Section */
+.hero {
+    min-height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.5), transparent), url('./img/landing-page.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h3 {
+    padding: 5rem;
+}
+/* End: Hero Section */
+
+/* Start: Media Queries */
+@media screen and (max-width: 932px) {
+
+    html {
+        font-size: 45%;
+    }
+    
+    nav {
+        text-align: center;
+    }
+
+    #logo {
+        padding: 1rem;
+    }
+}
+
+/* End: Media Queries */
