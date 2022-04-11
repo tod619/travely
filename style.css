@@ -34,4 +34,37 @@ p {
     font-size: 2rem;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
 /* End: Global Styles */
+
+/* Start: Navigation Bar */
+.main-head {
+    background-color: #131c27;
+    color: #fff;
+}
+
+nav {
+    min-height: 10vh;
+    padding: 2rem;
+    display: flex;
+    align-items: center;   
+    width: 90%;
+    margin: auto;
+}
+
+nav ul {
+    display: flex;
+    flex: 1 1 40rem;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo {
+    flex: 2 1 40rem;
+}
+/* End: Navigation Bar */
