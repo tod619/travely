@@ -280,6 +280,36 @@ nav ul {
 
 /* End: Contact Section */
 
+/* Start: Footer Section */
+
+footer {
+    color: #fff;
+    background: rgb(19, 28, 39);
+}
+
+.footer-wrapper {
+    min-height: 10vh;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+}
+
+footer h5 {
+    flex: 1 1 40rem;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+    flex: 1 1 40rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* End: Footer Section */
+
 /* Start: Media Queries */
 @media screen and (max-width: 932px) {
 
