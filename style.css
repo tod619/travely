@@ -195,6 +195,7 @@ nav ul {
 
     .cloud {
         height: 40rem;
+        pointer-events: none;
     }
 
     .moving-cloud-1 {
