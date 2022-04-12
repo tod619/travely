@@ -294,6 +294,7 @@ footer {
     display: flex;
     padding: 2rem;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 footer h5 {
@@ -342,6 +343,18 @@ footer ul {
         background: rgba(0, 0, 0, 0.5);
         -webkit-text-fill-color: #fff;
         text-align: center;
+    }
+
+    .form-wrapper {
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer h5 {
+        padding-bottom: 2rem;
     }
 }
 
